@@ -1,11 +1,11 @@
 module github.com/gamalan/caddy-tlsredis
 
-go 1.12
+go 1.14
 
 require (
 	github.com/bsm/redislock v0.3.0
-	github.com/caddyserver/caddy/v2 v2.0.0-rc.1
-	github.com/caddyserver/certmagic v0.10.10
+	github.com/caddyserver/caddy/v2 v2.0.0
+	github.com/caddyserver/certmagic v0.10.12
 	github.com/cenkalti/backoff v2.2.1+incompatible // indirect
 	github.com/go-acme/lego v2.7.2+incompatible // indirect
 	github.com/go-redis/redis v6.15.2+incompatible
